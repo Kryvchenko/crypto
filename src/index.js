@@ -3,7 +3,8 @@ import ReactDOM from "react-dom";
 
 const el = (
   <>
-    <h1>BLOCKCHAIN REVOLUTION</h1>
+    <h3>BLOCKCHAIN REVOLUTION</h3>
+    <h1>Decentralize everything</h1>
   </>
 );
 
