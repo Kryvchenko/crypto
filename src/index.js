@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 const el = (
   <>
-    <h1>My first blog on react</h1>
+    <h1>BLOCKCHAIN REVOLUTION</h1>
   </>
 );
 
