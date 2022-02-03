@@ -1,11 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { App } from "containers/App/App";
 
-const el = (
-  <>
-    <h3>BLOCKCHAIN REVOLUTION</h3>
-    <h1>Decentralize everything</h1>
-  </>
-);
-
-ReactDOM.render(el, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
