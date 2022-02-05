@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "./Navbar";
-import { MenuItems } from "components/Navbar/MenuItems";
+import { Navigation } from "components/Navbar/Navigation";
+import { MobileNavigation } from "components/Navbar/MobileNavigation";
 import "components/Navbar/Container.scss";
 
 export const Container = () => {
@@ -8,7 +9,8 @@ export const Container = () => {
     <>
       <div className="container">
         <Navbar />
-        <MenuItems />
+        <Navigation />
+        <MobileNavigation />
       </div>
     </>
   );

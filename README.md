@@ -1,1 +1,1 @@
-# Fake blog-1
+# Fake blog
