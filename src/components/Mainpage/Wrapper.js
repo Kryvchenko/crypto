@@ -11,9 +11,11 @@ export const Wrapper = () => {
         style={{ display: "flex", justifyContent: "center" }}
       >
         <div
+          className="main-content"
           style={{
             width: "1200px",
             display: "flex",
+            flex: "0 0 4",
             justifyContent: "space-between",
           }}
         >

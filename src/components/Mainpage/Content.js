@@ -4,8 +4,8 @@ import "styles/Style.scss";
 export const Content = () => {
   return (
     <>
-      <p>BLOCKCHAIN REVOLUTION</p>
-      <h1>Decentralize everything</h1>
+      <p className="main-page-p">BLOCKCHAIN REVOLUTION</p>
+      <h1 className="main-page-h1">Decentralize everything</h1>
     </>
   );
 };

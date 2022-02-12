@@ -11,7 +11,84 @@
 
 .bitcoin-img {
     max-width: 500px;
-    margin: 50px 50px;
+}
+
+.btn-main {
+        color: #141b50;
+        background-color: #f9c326;
+        height: 50px;
+        width: 240px;
+        border: none;
+        font-size: 16px;
 }
 
 //Currency
+
+.currency {
+        display: flex;
+        justify-content: center;
+        background-color: #121b47;
+}
+
+.currency-content {
+        width: 1200px;
+        display: grid;
+        grid-template: 1fr / 1fr 1fr 1fr 1fr;
+        padding: 0 30px;
+        color: white;
+}
+
+//lg - laptop
+
+@media (max-width: 992px) {
+    .currency-content {
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr 1fr;
+        padding: 0 30px;
+        color: white;
+    }
+    .currency-item-2 {
+        grid-column-start: 3;
+    }
+    .currency-item-4 {
+        grid-column-start: 3;
+    }
+
+}
+
+//md - tablet 
+
+//Main page 
+
+@media (max-width: 768px) {
+    .bitcoin-img {
+        width: 300px;
+    }  
+    .btn-main {
+        color: #141b50;
+        background-color: #f9c326;
+        height: 50px;
+        width: 180px;
+        border: none;
+        font-size: 14px;
+    }
+    .main-page-p {
+        font-size: 14px;
+    }
+    .main-page-h1 {
+        font-size: 26px;
+    }
+}
+
+//sm-mobile only 
+
+@media (max-width: 525px) {
+    .main-content {
+        flex-direction: column-reverse;
+        align-items: left;
+        margin-bottom: 30px;
+    }
+}
+
+
+
