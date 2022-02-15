@@ -1,18 +1,20 @@
 * {
     box-sizing: border-box;
 }
+body {
+    color: #141b50;
+}
 
 //Main page 
 
 .wrapper {
-    background-image: url(bg.png);
+    background-image: url(/assets/bg.png);
     color: white;
 }
-
 .bitcoin-img {
-    max-width: 500px;
+    max-width: 550px;
+    margin: 100px 0;
 }
-
 .btn-main {
         color: #141b50;
         background-color: #f9c326;
@@ -21,13 +23,21 @@
         border: none;
         font-size: 16px;
 }
+.main-page-h1 {
+    font-size: 65px;
+}
+.main-page-p {
+    font-size: 20px;
+}
 
 //Currency
 
 .currency {
         display: flex;
         justify-content: center;
+        align-items: center;
         background-color: #121b47;
+        min-height: 80px;
 }
 
 .currency-content {
@@ -38,9 +48,74 @@
         color: white;
 }
 
+//Blog 
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+.blog-card {
+    width: 300px;
+}
+.card-content {
+    color: #141b50;
+    padding: 0 5px;
+    a {
+        text-decoration: none;
+        color: #141b50;
+    }
+}
+.card-content a:hover {
+    color: #f9c326;
+}
+.react-icons {
+    vertical-align: middle;
+    margin-right: 5px;
+    height: 1.2em;
+    width: 1.2em;
+}
+.blog-image > img {
+    height: 230px;
+    max-width: 300px;
+}
+.title {
+    min-height: 120px;
+}
+
+//Benefits section 
+
+.btn-benefits {
+    color: #141b50;
+    background-color: #f9c326;
+    height: 50px;
+    width: 180px;
+    border: none;
+    font-size: 16px;
+    margin: 15px 0;
+}
+.benefits-img {
+    max-width: 500px;
+}
+.benefits-text {
+    width: 400px;
+}
+
 //lg - laptop
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
+    .bitcoin-img {
+        width: 400px;
+        margin: 0;
+    }  
+    .main-page-h1 {
+        font-size: 45px;
+    }
+    .main-page-p {
+        font-size: 18px;
+    }
     .currency-content {
         display: grid;
         grid-template: 1fr 1fr / 1fr 1fr 1fr;
@@ -53,16 +128,35 @@
     .currency-item-4 {
         grid-column-start: 3;
     }
-
+    .benefits-img {
+        width: 450px;
+        height: 330px;
+    }
+    .benefits-text {
+        width: 300px;
+    }
+    .blog-card {
+        width: 250px;
+    }
+    .blog-image > img {
+        height: 180px;
+        max-width: 250px;
+    }
+    .card-content {
+        font-size: 14px;
+    }
+    .title {
+        min-height: 80px;
+    }
 }
 
 //md - tablet 
 
-//Main page 
 
 @media (max-width: 768px) {
     .bitcoin-img {
         width: 300px;
+        margin: 0;
     }  
     .btn-main {
         color: #141b50;
@@ -78,6 +172,36 @@
     .main-page-h1 {
         font-size: 26px;
     }
+    .benefits-img {
+        width: 320px;
+        height: 240px;
+        margin-bottom: 50px;
+    }
+    .benefits-content {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .benefits-text {
+        font-size: 14px;
+    }
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-card {
+        width: 300px;
+    }
+    .blog-image > img {
+        height: 230px;
+        max-width: 300px;
+    }
+    .card-content {
+        font-size: 14px;
+    }
+    .title {
+        min-height: 60px;
+    }
 }
 
 //sm-mobile only 
@@ -87,6 +211,11 @@
         flex-direction: column-reverse;
         align-items: left;
         margin-bottom: 30px;
+    }
+    .currency-content {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
     }
 }
 

@@ -3,13 +3,257 @@
           box-sizing: border-box;
 }
 
+body {
+  color: #141b50;
+}
+
 .wrapper {
-  background-image: url(bg.png);
+  background-image: url(/assets/bg.png);
   color: white;
 }
 
 .bitcoin-img {
+  max-width: 550px;
+  margin: 100px 0;
+}
+
+.btn-main {
+  color: #141b50;
+  background-color: #f9c326;
+  height: 50px;
+  width: 240px;
+  border: none;
+  font-size: 16px;
+}
+
+.main-page-h1 {
+  font-size: 65px;
+}
+
+.main-page-p {
+  font-size: 20px;
+}
+
+.currency {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #121b47;
+  min-height: 80px;
+}
+
+.currency-content {
+  width: 1200px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template: 1fr / 1fr 1fr 1fr 1fr;
+  padding: 0 30px;
+  color: white;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 1200px;
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.blog-card {
+  width: 300px;
+}
+
+.card-content {
+  color: #141b50;
+  padding: 0 5px;
+}
+
+.card-content a {
+  text-decoration: none;
+  color: #141b50;
+}
+
+.card-content a:hover {
+  color: #f9c326;
+}
+
+.react-icons {
+  vertical-align: middle;
+  margin-right: 5px;
+  height: 1.2em;
+  width: 1.2em;
+}
+
+.blog-image > img {
+  height: 230px;
+  max-width: 300px;
+}
+
+.title {
+  min-height: 120px;
+}
+
+.btn-benefits {
+  color: #141b50;
+  background-color: #f9c326;
+  height: 50px;
+  width: 180px;
+  border: none;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.benefits-img {
   max-width: 500px;
-  margin: 50px 50px;
+}
+
+.benefits-text {
+  width: 400px;
+}
+
+@media (max-width: 1024px) {
+  .bitcoin-img {
+    width: 400px;
+    margin: 0;
+  }
+  .main-page-h1 {
+    font-size: 45px;
+  }
+  .main-page-p {
+    font-size: 18px;
+  }
+  .currency-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    padding: 0 30px;
+    color: white;
+  }
+  .currency-item-2 {
+    -ms-grid-column: 3;
+        grid-column-start: 3;
+  }
+  .currency-item-4 {
+    -ms-grid-column: 3;
+        grid-column-start: 3;
+  }
+  .benefits-img {
+    width: 450px;
+    height: 330px;
+  }
+  .benefits-text {
+    width: 300px;
+  }
+  .blog-card {
+    width: 250px;
+  }
+  .blog-image > img {
+    height: 180px;
+    max-width: 250px;
+  }
+  .card-content {
+    font-size: 14px;
+  }
+  .title {
+    min-height: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bitcoin-img {
+    width: 300px;
+    margin: 0;
+  }
+  .btn-main {
+    color: #141b50;
+    background-color: #f9c326;
+    height: 50px;
+    width: 180px;
+    border: none;
+    font-size: 14px;
+  }
+  .main-page-p {
+    font-size: 14px;
+  }
+  .main-page-h1 {
+    font-size: 26px;
+  }
+  .benefits-img {
+    width: 320px;
+    height: 240px;
+    margin-bottom: 50px;
+  }
+  .benefits-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  .benefits-text {
+    font-size: 14px;
+  }
+  .flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .blog-card {
+    width: 300px;
+  }
+  .blog-image > img {
+    height: 230px;
+    max-width: 300px;
+  }
+  .card-content {
+    font-size: 14px;
+  }
+  .title {
+    min-height: 60px;
+  }
+}
+
+@media (max-width: 525px) {
+  .main-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    margin-bottom: 30px;
+  }
+  .currency-content {
+    font-size: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=Style.css.map */
