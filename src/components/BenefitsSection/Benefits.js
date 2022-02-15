@@ -15,7 +15,7 @@ export const Benefits = () => {
           style={{
             width: "1200px",
             display: "flex",
-            flex: "0 0 4",
+            flex: "0 0 2",
             justifyContent: "space-between",
             marginTop: "50px",
           }}
