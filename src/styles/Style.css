@@ -122,6 +122,15 @@ body {
   width: 400px;
 }
 
+.table-bordered {
+  border: 5px double #121b47 !important;
+}
+
+.table-hover tbody tr:hover {
+  color: yellow !important;
+  background-color: #f9c326;
+}
+
 @media (max-width: 1024px) {
   .bitcoin-img {
     width: 400px;

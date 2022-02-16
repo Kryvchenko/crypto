@@ -103,6 +103,16 @@ body {
     width: 400px;
 }
 
+//Statistic section 
+
+.table-bordered {
+    border: 5px double #121b47 !important;
+}
+.table-hover tbody tr:hover {
+    color: yellow !important;
+    background-color: #f9c326;
+}
+
 
 //lg - laptop
 
