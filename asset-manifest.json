@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/crypto/static/css/main.3c4624cb.css",
-    "main.js": "/crypto/static/js/main.5810b031.js",
+    "main.js": "/crypto/static/js/main.e8e497c7.js",
     "static/media/bitcoin.png": "/crypto/static/media/bitcoin.d6a284e7eb612e3ec926.png",
     "static/media/globe.png": "/crypto/static/media/globe.4a0265a5d0315c9a55aa.png",
     "static/media/diagram.png": "/crypto/static/media/diagram.a353d4268e8180c0be11.png",
     "index.html": "/crypto/index.html",
     "main.3c4624cb.css.map": "/crypto/static/css/main.3c4624cb.css.map",
-    "main.5810b031.js.map": "/crypto/static/js/main.5810b031.js.map"
+    "main.e8e497c7.js.map": "/crypto/static/js/main.e8e497c7.js.map"
   },
   "entrypoints": [
     "static/css/main.3c4624cb.css",
-    "static/js/main.5810b031.js"
+    "static/js/main.e8e497c7.js"
   ]
 }
