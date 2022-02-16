@@ -27,7 +27,6 @@ export const Statistic = () => {
             }}
           >
             <Image />
-            <Image />
           </div>
         </div>
       </div>
