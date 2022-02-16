@@ -52,7 +52,7 @@ body {
 
 .flex-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 1200px;
     padding-top: 120px;
     padding-bottom: 60px;
@@ -103,6 +103,7 @@ body {
     width: 400px;
 }
 
+
 //lg - laptop
 
 @media (max-width: 1024px) {
@@ -147,6 +148,9 @@ body {
     }
     .title {
         min-height: 80px;
+    }
+    .statistic-circle {
+        flex-direction: column;
     }
 }
 

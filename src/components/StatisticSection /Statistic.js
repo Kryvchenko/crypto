@@ -1,6 +1,7 @@
 import React from "react";
 import { Content } from "./Content";
 import { Image } from "./Image";
+import { Table } from "./Table";
 
 export const Statistic = () => {
   return (
@@ -16,17 +17,28 @@ export const Statistic = () => {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            marginTop: "50px",
+            marginTop: "150px",
           }}
         >
           <Content />
           <div
+            className="statistic-circle"
             style={{
               display: "flex",
-              justifyContent: "space-evenly",
+              paddingTop: "100px",
             }}
           >
-            <Image />
+            <div
+              style={{
+                paddingRight: "150px",
+                paddingBottom: "100px",
+              }}
+            >
+              <Image />
+            </div>
+            <div>
+              <Table />
+            </div>
           </div>
         </div>
       </div>
