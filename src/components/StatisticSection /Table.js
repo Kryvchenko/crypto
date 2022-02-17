@@ -45,7 +45,7 @@ export const Table = () => {
   const renderCoins = (coins, index) => {
     return (
       <tr key={index} style={{ color: "#141b50" }}>
-        <td>{coins.name}</td>
+        <td style={{ fontWeight: "bold" }}>{coins.name}</td>
         <td>{coins.price}</td>
         <td>{coins.volume}</td>
         <td>{coins.change}</td>
