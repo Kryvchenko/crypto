@@ -196,6 +196,10 @@ body {
   background-size: contain;
 }
 
+.download-p {
+  width: 400px;
+}
+
 @media (max-width: 992px) {
   .bitcoin-img {
     width: 400px;
