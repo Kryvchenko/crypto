@@ -176,6 +176,22 @@ body {
 }
 
 
+//Footer 
+.footer {
+    background-image: url(/assets/bg.png);
+    display: flex;
+    justify-content: center;
+}
+.footer-content {
+    width: 1200px;
+    display: grid;  
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+    padding-top: 20px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 
 
 
