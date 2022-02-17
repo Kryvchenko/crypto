@@ -35,7 +35,6 @@ export const Statistic = () => {
             justifyContent: "space-between",
             marginTop: "50px",
             marginBottom: "50px",
-            padding: "0 50px",
           }}
         >
           <div>

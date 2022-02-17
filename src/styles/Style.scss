@@ -173,6 +173,8 @@ body {
     }
     .statistic-graphic {
         flex-direction: column;
+        align-items: center;
+        padding: 0 50px;
     }
     .diagram {
         margin-bottom: 50px;
@@ -254,7 +256,15 @@ body {
         flex-direction: column;
     } 
     .diagram {
-        width: 320px;
+        width: 300px;
+    }
+    .table-bordered {
+        font-size: 10px;
+    }
+    .statistic-graphic {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
     }
 }
 

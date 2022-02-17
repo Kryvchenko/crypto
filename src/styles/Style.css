@@ -197,6 +197,10 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 50px;
   }
   .diagram {
     margin-bottom: 50px;
@@ -292,7 +296,20 @@ body {
             flex-direction: column;
   }
   .diagram {
-    width: 320px;
+    width: 300px;
+  }
+  .table-bordered {
+    font-size: 10px;
+  }
+  .statistic-graphic {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
   }
 }
 /*# sourceMappingURL=Style.css.map */
