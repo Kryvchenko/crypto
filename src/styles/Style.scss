@@ -126,6 +126,7 @@ body {
 }
 
 // Miners section
+
 .miners-p {
     width: 400px;
 }
@@ -145,6 +146,34 @@ body {
 .miner-img {
    width: 400px;
 }
+
+//Download section 
+
+.download {
+    background-image: url(/assets/bg-white.png);
+}
+.app-images {
+    display: flex;
+    margin: 20px 0;
+}
+.app-store {
+    background-image: url(/assets/app-store.png);
+    width: 170px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+.g-play {
+    background-image: url(/assets/google-play.png);
+    width: 170px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
 
 
 //lg - laptop
@@ -274,7 +303,21 @@ body {
     }
     .statistic-p {
         width: 320px;
-    }  
+    } 
+    .download-p {
+        width: 300px;
+    } 
+    .app-images {
+        display: block;
+    }
+    .download-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .women-img {
+        margin-bottom: 30px;
+        width: 316px;
+    }
 }
 
 //sm-mobile only 

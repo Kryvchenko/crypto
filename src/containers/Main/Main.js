@@ -5,6 +5,7 @@ import { BlogList } from "components/Blog/BlogList";
 import { Benefits } from "components/BenefitsSection/Benefits";
 import { Statistic } from "components/StatisticSection /Statistic";
 import { Miners } from "components/MinersSection/Miners";
+import { Download } from "components/DownloadSection/Download";
 
 export const Main = () => {
   return (
@@ -15,6 +16,7 @@ export const Main = () => {
       <Benefits />
       <Statistic />
       <Miners />
+      <Download />
     </>
   );
 };

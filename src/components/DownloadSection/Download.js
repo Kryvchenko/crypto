@@ -1,27 +1,25 @@
 import React from "react";
-import { Content } from "components/MinersSection/Content";
-import { Button } from "components/MinersSection/Button";
-import { Image } from "components/MinersSection/Image";
-
-export const Miners = () => {
+import { Image } from "components/DownloadSection/Image";
+import { Content } from "components/DownloadSection/Content";
+export const Download = () => {
   return (
     <>
       <div
-        className="miners"
-        style={{ display: "flex", justifyContent: "center" }}
+        className="download"
+        style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}
       >
         <div
-          className="miner-content"
+          className="download-content"
           style={{
             width: "1200px",
             display: "flex",
             flex: "0 0 4",
             justifyContent: "space-around",
             marginTop: "50px",
-            marginBottom: "50px",
             color: "#121b47",
           }}
         >
+          <Image />
           <div
             style={{
               display: "flex",
@@ -32,9 +30,7 @@ export const Miners = () => {
             }}
           >
             <Content />
-            <Button />
           </div>
-          <Image />
         </div>
       </div>
     </>
