@@ -26,14 +26,10 @@ export const Statistic = () => {
             style={{
               display: "flex",
               paddingTop: "100px",
+              justifyContent: "space-between",
             }}
           >
-            <div
-              style={{
-                paddingRight: "150px",
-                paddingBottom: "100px",
-              }}
-            >
+            <div>
               <Image />
             </div>
             <div>

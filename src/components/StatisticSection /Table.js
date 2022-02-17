@@ -6,44 +6,38 @@ export const Table = () => {
   const coins = [
     {
       name: "Bitcoin",
-      image: "images/crypto-bitcoin.png",
       price: "45 000",
-      volume: "10000000",
+      volume: "100M",
       change: "+5%",
     },
     {
       name: "Etherium",
-      image: "images/crypto-bitcoin.png",
       price: "3000",
-      volume: "2323123",
+      volume: "23M",
       change: "+3%",
     },
     {
       name: "Litecoin",
-      image: "images/crypto-bitcoin.png",
       price: "130",
-      volume: "2232344",
+      volume: "223M",
       change: "+0.7%",
     },
     {
       name: "Matic",
-      image: "images/crypto-bitcoin.png",
       price: "1.87",
-      volume: "223235544",
+      volume: "22M",
       change: "+4.26%",
     },
     {
       name: "Doge",
-      image: "images/crypto-bitcoin.png",
       price: "0.15",
-      volume: "212232544",
+      volume: "36M",
       change: "+1.6%",
     },
     {
       name: "Miota",
-      image: "images/crypto-bitcoin.png",
       price: "0.90",
-      volume: "54342323",
+      volume: "54M",
       change: "+5%",
     },
   ];
@@ -52,7 +46,6 @@ export const Table = () => {
     return (
       <tr key={index} style={{ color: "#141b50" }}>
         <td>{coins.name}</td>
-        <td>{coins.image}</td>
         <td>{coins.price}</td>
         <td>{coins.volume}</td>
         <td>{coins.change}</td>

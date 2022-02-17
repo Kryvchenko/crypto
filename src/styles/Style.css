@@ -55,7 +55,7 @@ body {
   -ms-grid-rows: 1fr;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template: 1fr / 1fr 1fr 1fr 1fr;
-  padding: 0 30px;
+  padding-top: 20px;
   color: white;
 }
 
@@ -148,7 +148,8 @@ body {
     -ms-grid-rows: 1fr 1fr;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template: 1fr 1fr / 1fr 1fr 1fr;
-    padding: 0 30px;
+    padding-top: 20px;
+    padding-left: 30px;
     color: white;
   }
   .currency-item-2 {
@@ -179,12 +180,6 @@ body {
   .title {
     min-height: 80px;
   }
-  .statistic-circle {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
 }
 
 @media (max-width: 768px) {
@@ -207,8 +202,8 @@ body {
     font-size: 26px;
   }
   .benefits-img {
-    width: 320px;
-    height: 240px;
+    width: 280px;
+    height: 200px;
     margin-bottom: 50px;
   }
   .benefits-content {
