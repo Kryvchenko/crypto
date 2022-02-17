@@ -16,6 +16,7 @@ export const Download = () => {
             flex: "0 0 4",
             justifyContent: "space-around",
             marginTop: "50px",
+            marginBottom: "50px",
             color: "#121b47",
           }}
         >

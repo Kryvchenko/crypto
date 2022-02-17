@@ -12,6 +12,8 @@ export const Benefits = () => {
           display: "flex",
           justifyContent: "center",
           marginBottom: "50px",
+          paddingBottom: "50px",
+          borderBottom: "2px solid #f9c326",
         }}
       >
         <div

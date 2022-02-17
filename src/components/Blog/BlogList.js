@@ -6,7 +6,13 @@ import { BlogListItem } from "./BlogListItem";
 export const BlogList = () => {
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          borderBottom: "2px solid #f9c326",
+        }}
+      >
         <div className="flex-container">
           {blogArray.map(({ id, image, date, title, text }) => (
             <BlogListItem

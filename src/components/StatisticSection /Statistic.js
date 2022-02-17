@@ -25,7 +25,11 @@ export const Statistic = () => {
       </div>
       <div
         className="statistic"
-        style={{ display: "flex", justifyContent: "center" }}
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          borderBottom: "2px solid #f9c326",
+        }}
       >
         <div
           className="statistic-graphic"
