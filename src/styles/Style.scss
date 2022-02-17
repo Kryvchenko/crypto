@@ -124,7 +124,7 @@ body {
 
 //lg - laptop
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
     .bitcoin-img {
         width: 400px;
         margin: 0;
@@ -171,7 +171,12 @@ body {
     .benefits-h1 {
         font-size: 30px;
     }
-   
+    .statistic-graphic {
+        flex-direction: column;
+    }
+    .diagram {
+        margin-bottom: 50px;
+    }
 }
 
 //md - tablet 
@@ -229,6 +234,9 @@ body {
     .currency-content {
         font-size: 14px;
     }
+    .statistic-p {
+        width: 320px;
+    }
     
 }
 
@@ -245,5 +253,8 @@ body {
         display: flex;
         flex-direction: column;
     } 
+    .diagram {
+        width: 320px;
+    }
 }
 

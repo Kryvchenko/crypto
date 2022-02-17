@@ -8,7 +8,11 @@ export const Benefits = () => {
     <>
       <div
         className="benefits"
-        style={{ display: "flex", justifyContent: "center" }}
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginBottom: "50px",
+        }}
       >
         <div
           className="benefits-content"

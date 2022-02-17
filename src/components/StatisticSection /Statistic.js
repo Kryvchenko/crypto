@@ -15,27 +15,34 @@ export const Statistic = () => {
           style={{
             width: "1200px",
             display: "flex",
-            flexDirection: "column",
+            justifyContent: "center",
             alignItems: "center",
-            marginTop: "150px",
+            marginTop: "50px",
           }}
         >
           <Content />
-          <div
-            className="statistic-circle"
-            style={{
-              display: "flex",
-              paddingTop: "100px",
-              justifyContent: "space-between",
-            }}
-          >
-            <div>
-              <Image />
-            </div>
-            <div>
-              <Table />
-            </div>
+        </div>
+      </div>
+      <div
+        className="statistic"
+        style={{ display: "flex", justifyContent: "center" }}
+      >
+        <div
+          className="statistic-graphic"
+          style={{
+            width: "1200px",
+            display: "flex",
+            justifyContent: "space-between",
+            marginTop: "50px",
+            marginBottom: "50px",
+            padding: "0 50px",
+          }}
+        >
+          <div>
+            {" "}
+            <Image />
           </div>
+          <Table />
         </div>
       </div>
     </>

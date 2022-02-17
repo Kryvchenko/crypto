@@ -140,7 +140,7 @@ body {
   background-color: #f9c326;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
   .bitcoin-img {
     width: 400px;
     margin: 0;
@@ -191,6 +191,15 @@ body {
   }
   .benefits-h1 {
     font-size: 30px;
+  }
+  .statistic-graphic {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .diagram {
+    margin-bottom: 50px;
   }
 }
 
@@ -256,6 +265,9 @@ body {
   .currency-content {
     font-size: 14px;
   }
+  .statistic-p {
+    width: 320px;
+  }
 }
 
 @media (max-width: 525px) {
@@ -278,6 +290,9 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .diagram {
+    width: 320px;
   }
 }
 /*# sourceMappingURL=Style.css.map */
