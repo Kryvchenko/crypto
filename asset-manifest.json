@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/crypto/static/css/main.87f022c3.css",
-    "main.js": "/crypto/static/js/main.c1837e01.js",
+    "main.css": "/crypto/static/css/main.14632798.css",
+    "main.js": "/crypto/static/js/main.08e2c47f.js",
+    "static/media/women.png": "/crypto/static/media/women.8110d5c9d349f048bb8c.png",
     "static/media/bitcoin.png": "/crypto/static/media/bitcoin.d6a284e7eb612e3ec926.png",
+    "static/media/miner.png": "/crypto/static/media/miner.4426f66211af1586d89a.png",
     "static/media/globe.png": "/crypto/static/media/globe.4a0265a5d0315c9a55aa.png",
     "static/media/diagram.png": "/crypto/static/media/diagram.a353d4268e8180c0be11.png",
+    "static/media/bg-white.png": "/crypto/static/media/bg-white.3a29a20ddfda73b4bcda.png",
     "index.html": "/crypto/index.html",
-    "main.87f022c3.css.map": "/crypto/static/css/main.87f022c3.css.map",
-    "main.c1837e01.js.map": "/crypto/static/js/main.c1837e01.js.map"
+    "main.14632798.css.map": "/crypto/static/css/main.14632798.css.map",
+    "main.08e2c47f.js.map": "/crypto/static/js/main.08e2c47f.js.map"
   },
   "entrypoints": [
-    "static/css/main.87f022c3.css",
-    "static/js/main.c1837e01.js"
+    "static/css/main.14632798.css",
+    "static/js/main.08e2c47f.js"
   ]
 }
