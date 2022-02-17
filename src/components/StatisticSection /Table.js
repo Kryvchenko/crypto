@@ -48,7 +48,7 @@ export const Table = () => {
         <td style={{ fontWeight: "bold" }}>{coins.name}</td>
         <td>{coins.price}</td>
         <td>{coins.volume}</td>
-        <td>{coins.change}</td>
+        <td style={{ color: "#57c568" }}>{coins.change}</td>
       </tr>
     );
   };
