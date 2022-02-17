@@ -14,10 +14,7 @@ export const Content = () => {
         }}
       >
         <h1 className="statistic-h1">Statistic and graphs</h1>
-        <p
-          className="statistic-p"
-          style={{ maxWidth: "500px", textAlign: "center" }}
-        >
+        <p className="statistic-p" style={{ maxWidth: "500px" }}>
           In a decentralized blockchain network, no one has to know or trust
           anyone else.
         </p>

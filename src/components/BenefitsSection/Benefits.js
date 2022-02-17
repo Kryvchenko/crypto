@@ -31,7 +31,6 @@ export const Benefits = () => {
               alignItems: "space-evenly",
               flexDirection: "column",
               justifyContent: "center",
-              margin: "0 30px",
             }}
           >
             <Content />

@@ -32,7 +32,7 @@ export const Statistic = () => {
           style={{
             width: "1200px",
             display: "flex",
-            justifyContent: "space-between",
+            justifyContent: "space-around",
             marginTop: "50px",
             marginBottom: "50px",
           }}

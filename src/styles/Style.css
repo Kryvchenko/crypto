@@ -140,6 +140,11 @@ body {
   background-color: #f9c326;
 }
 
+.statistic-p {
+  width: 320px;
+  text-align: center;
+}
+
 @media (max-width: 992px) {
   .bitcoin-img {
     width: 400px;
@@ -231,6 +236,9 @@ body {
     height: 200px;
     margin-bottom: 50px;
   }
+  .benefits-p {
+    width: 280px;
+  }
   .benefits-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -296,7 +304,7 @@ body {
             flex-direction: column;
   }
   .diagram {
-    width: 300px;
+    width: 280px;
   }
   .table-bordered {
     font-size: 10px;
@@ -310,6 +318,9 @@ body {
         -ms-flex-align: center;
             align-items: center;
     padding: 0;
+  }
+  .statistic-p {
+    width: 280px;
   }
 }
 /*# sourceMappingURL=Style.css.map */
