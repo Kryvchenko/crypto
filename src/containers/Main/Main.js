@@ -4,6 +4,7 @@ import { Currency } from "components/Mainpage/Currency";
 import { BlogList } from "components/Blog/BlogList";
 import { Benefits } from "components/BenefitsSection/Benefits";
 import { Statistic } from "components/StatisticSection /Statistic";
+import { Miners } from "components/MinersSection/Miners";
 
 export const Main = () => {
   return (
@@ -13,6 +14,7 @@ export const Main = () => {
       <BlogList />
       <Benefits />
       <Statistic />
+      <Miners />
     </>
   );
 };

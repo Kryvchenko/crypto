@@ -125,6 +125,27 @@ body {
     text-align: center;
 }
 
+// Miners section
+.miners-p {
+    width: 400px;
+}
+.miners-h1 {
+    width: 400px;
+    margin-bottom: 20px;
+}
+.btn-miners {
+    color: #141b50;
+    background-color: #f9c326;
+    height: 50px;
+    width: 180px;
+    border: none;
+    font-size: 16px;
+    margin: 15px 0;
+}
+.miner-img {
+   width: 400px;
+}
+
 
 //lg - laptop
 
@@ -182,6 +203,14 @@ body {
     }
     .diagram {
         margin-bottom: 50px;
+    }
+    .miner-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .miner-img {
+        width: 350px;
+        margin-top: 50px;
     }
 }
 
@@ -275,7 +304,15 @@ body {
     .statistic-p {
         width: 280px;
     }
- 
+    .miner-img {
+        width: 300px;
+    }
+    .miners-p {
+        width: 300px;
+    }
+    .miners-h1 {
+        width: 300px;
+    }
 
 }
 
