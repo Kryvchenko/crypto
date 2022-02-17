@@ -57,7 +57,7 @@ body {
     justify-content: space-around;
     width: 1200px;
     padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 .blog-card {
     width: 300px;
@@ -82,9 +82,15 @@ body {
 .blog-image > img {
     height: 230px;
     max-width: 300px;
+    padding-bottom: 5px;
 }
 .title {
-    min-height: 120px;
+    min-height: 130px;
+    padding: 10px 0;
+    font-size: 28px;
+}
+.blog-p {
+    padding-bottom: 40px;
 }
 
 //Benefits section 
@@ -160,8 +166,12 @@ body {
         font-size: 14px;
     }
     .title {
-        min-height: 80px;
+        font-size: 24px;
     }
+    .benefits-h1 {
+        font-size: 30px;
+    }
+   
 }
 
 //md - tablet 

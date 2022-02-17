@@ -18,7 +18,7 @@ export const BlogListItem = ({ image, date, title, text }) => {
           <div>
             <h2 className="title">{title}</h2>
           </div>
-          <div>
+          <div className="blog-p">
             <p>{text}</p>
           </div>
         </div>
