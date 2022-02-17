@@ -25,6 +25,8 @@ body {
 }
 .main-page-h1 {
     font-size: 65px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .main-page-p {
     font-size: 20px;
@@ -213,6 +215,9 @@ body {
     }
     .title {
         min-height: 60px;
+    }
+    .currency-content {
+        font-size: 14px;
     }
     
 }
