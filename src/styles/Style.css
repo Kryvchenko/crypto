@@ -215,12 +215,69 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 1fr;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template: 1fr / 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template: 1fr / 1fr 1fr 1fr;
   padding-top: 20px;
   color: white;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding: 0 30px;
+}
+
+.usefull-links li, .more-links li {
+  list-style: none;
+}
+
+.usefull-links a, .more-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.usefull-links a:hover, .more-links a:hover {
+  color: #f9c326;
+}
+
+.btn-footer {
+  color: #141b50;
+  background-color: #f9c326;
+  height: 50px;
+  width: 180px;
+  border: none;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.read-more-link {
+  text-decoration: none;
+  color: #f9c326;
+}
+
+.usefull-links, .more-links, .footer-title {
+  color: #f9c326;
+}
+
+.rights {
+  color: white;
+  background-image: url(/assets/bg.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mission {
+  padding-left: 25px;
 }
 
 @media (max-width: 992px) {
@@ -300,6 +357,9 @@ body {
   .miner-img {
     width: 350px;
     margin-top: 50px;
+  }
+  .mission {
+    padding-left: 0;
   }
 }
 
@@ -390,6 +450,21 @@ body {
     margin-bottom: 30px;
     width: 316px;
   }
+  .footer-content {
+    -ms-grid-rows: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template: 1fr 1fr /  1fr 1fr;
+  }
+  .mission {
+    -ms-grid-columns: 2/4;
+        grid-template-columns: 2/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+  }
+  .usefull-links, .more-links {
+    padding-left: 80px;
+  }
 }
 
 @media (max-width: 525px) {
@@ -440,6 +515,32 @@ body {
   }
   .miners-h1 {
     width: 300px;
+  }
+  .footer-content {
+    -ms-grid-rows: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template: 1fr 1fr 1fr /  1fr;
+  }
+  .mission {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    padding-bottom: 30px;
+  }
+  .usefull-links, .more-links {
+    padding: 0;
+  }
+  .rights-content {
+    width: 300px;
+  }
+  .rights {
+    padding-top: 0;
+  }
+  .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 /*# sourceMappingURL=Style.css.map */

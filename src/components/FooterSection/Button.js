@@ -2,5 +2,5 @@ import React from "react";
 import "styles/Style.scss";
 
 export const Button = () => {
-  return <button className="btn-miners">View more details</button>;
+  return <button className="btn-footer">View more details</button>;
 };
