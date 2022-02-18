@@ -41,7 +41,7 @@ export const FooterSection = () => {
                   <h5 className="footer-item-3">Partner links</h5>
                 </li>
                 <li>
-                  <a href="https://coinmarketcap.com/">Coinmarketcap</a>
+                  <a href="https://coinmarketcap.com/">Marketcap</a>
                 </li>
                 <li>
                   <a href="https://www.cryptoview.com/">Cryptoview</a>
@@ -60,7 +60,7 @@ export const FooterSection = () => {
           </div>
           <div className="mission">
             <h5 className="footer-title">Our mission</h5>
-            <p>
+            <p className="mission-p">
               Last year was an exceptional year for the crypto industry. Right
               from institutions getting involved with cryptos and raising
               millions of dollars to invest in the space to the booming NFT

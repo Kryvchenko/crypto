@@ -172,8 +172,12 @@ body {
     background-size: contain;
 }
 .download-p {
-    width: 400px;
+    width: 350px;
 }
+.mission {
+    max-width: 300px;
+}
+
 
 
 //Footer 
@@ -200,13 +204,16 @@ body {
 } .usefull-links a:hover, .more-links a:hover {
     color: #f9c326;
 }
+.usefull-links ul {
+    padding-left: 0px;
+}
 .btn-footer {
     color: #141b50;
     background-color: #f9c326;
     height: 50px;
     width: 180px;
     border: none;
-    font-size: 16px;
+    font-size: 15px;
     margin: 15px 0;
 }
 .read-more-link {
@@ -302,6 +309,16 @@ body {
     .mission {
         padding-left: 0;
     }
+    .footer-item-1 {
+        font-size: 24px;
+    }
+    .footer-item-2, .footer-item-3, .footer-title {
+        font-size: 18px;
+    }
+    .more-links, .usefull-links, .mission-p {
+        font-size: 15px;
+        font-weight: 300;
+    }
 }
 
 //md - tablet 
@@ -388,6 +405,7 @@ body {
     }
     .usefull-links, .more-links {
         padding-left: 80px;
+        padding-right: 50px;
     }
 }
 
