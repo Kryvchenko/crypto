@@ -15,7 +15,7 @@ export const blogArray = [
   },
   {
     id: 3,
-    image: "images/crypto-3.jpg",
+    //image: "images/crypto-3.jpg",
     date: "1 Dec 2021",
     title: "A SteemIt Game Plan",
     text: "I'm obviously very very new to SteemIt. I've been posting every single day and I've been trying to post highly quality content.",
